@@ -5,7 +5,7 @@
 - Clone or download project from GitHub [repository](https://github.com/kuzaster/Sibdev_task)
 - Open terminal
 - Go to the main directory of the project, where you can see Dockerfile and docker-compose.yml 
-- Run `docker-compose up` and wait a little, while building and running container with app
+- Run `docker-compose up` and wait a little, while building and running container with service
 - Enter http://localhost:8000/api/v1/deals/ in a browser to see the service running
 
 P.S.

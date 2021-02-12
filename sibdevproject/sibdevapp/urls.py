@@ -1,8 +1,5 @@
-from django.contrib import admin
-from django.urls import path, include
-from .views import CustomersView
-# app_name = "sibdevapp"
+from django.urls import path
 
-urlpatterns = [
-    path('deals/', CustomersView.as_view())
-]
+from .views import CustomersView
+
+urlpatterns = [path("deals/", CustomersView.as_view(), name="get_post_deals")]

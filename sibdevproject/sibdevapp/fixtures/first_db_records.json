@@ -1,0 +1,110 @@
+[
+{
+    "model": "sibdevapp.customer",
+    "fields": {
+        "username": "customer_1",
+        "spent_money": 300
+    }
+},
+{
+    "model": "sibdevapp.deals",
+    "pk": 1,
+    "fields": {
+        "customer": "customer_1",
+        "item": "Кварц",
+        "cost": 300,
+        "quantity": 6,
+        "date": "2018-12-14 08:29:45.883282"
+    }
+},
+{
+    "model": "sibdevapp.customer",
+    "fields": {
+        "username": "customer_2",
+        "spent_money": 400
+    }
+},
+{
+    "model": "sibdevapp.deals",
+    "pk": 2,
+    "fields": {
+        "customer": "customer_2",
+        "item": "Кварц",
+        "cost": 400,
+        "quantity": 8,
+        "date": "2018-12-15 15:00:59.858739"
+    }
+},
+{
+    "model": "sibdevapp.customer",
+    "fields": {
+        "username": "customer_3",
+        "spent_money": 500
+    }
+},
+{
+    "model": "sibdevapp.deals",
+    "pk": 3,
+    "fields": {
+        "customer": "customer_3",
+        "item": "Рубин",
+        "cost": 500,
+        "quantity": 2,
+        "date": "2018-12-16 00:01:13.013713"
+    }
+},
+{
+    "model": "sibdevapp.customer",
+    "fields": {
+        "username": "customer_4",
+        "spent_money": 750
+    }
+},
+{
+    "model": "sibdevapp.deals",
+    "pk": 4,
+    "fields": {
+        "customer": "customer_4",
+        "item": "Рубин",
+        "cost": 750,
+        "quantity": 3,
+        "date": "2018-12-16 01:58:57.047891"
+    }
+},
+{
+    "model": "sibdevapp.customer",
+    "fields": {
+        "username": "customer_5",
+        "spent_money": 100
+    }
+},
+{
+    "model": "sibdevapp.deals",
+    "pk": 5,
+    "fields": {
+        "customer": "customer_5",
+        "item": "Яшма",
+        "cost": 100,
+        "quantity": 2,
+        "date": "2018-12-16 03:35:54.925057"
+    }
+},
+{
+    "model": "sibdevapp.customer",
+    "fields": {
+        "username": "customer_6",
+        "spent_money": 50
+    }
+},
+{
+    "model": "sibdevapp.deals",
+    "pk": 6,
+    "fields": {
+        "customer": "customer_6",
+        "item": "Яшма",
+        "cost": 50,
+        "quantity": 1,
+        "date": "2018-12-17 14:11:50.787893"
+    }
+}
+]
